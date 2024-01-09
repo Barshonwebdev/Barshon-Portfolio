@@ -4,7 +4,7 @@ const TypeWriterEffectText = () => {
   return (
     <TypeAnimation
       sequence={[
-        "Front End Web Developer",
+        "Front End  Developer",
         1000,
         "React Developer",
         1000,

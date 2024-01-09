@@ -6,7 +6,7 @@ const Header = () => {
       <div>
         <div className="navbar bg-base-100">
           <div className="navbar-start">
-            <ThemeToggler></ThemeToggler>
+            {/* <ThemeToggler></ThemeToggler> */}
             <div className="dropdown">
               <div
                 tabIndex={0}

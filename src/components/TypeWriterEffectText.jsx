@@ -18,7 +18,7 @@ const TypeWriterEffectText = () => {
       wrapper="span"
       speed={50}
       repeat={Infinity}
-      className="text-2xl lg:text-4xl"
+      className="text-2xl"
     />
   );
 };

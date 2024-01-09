@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import ThemeToggler from './themeToggler';
 
@@ -57,22 +56,22 @@ const Header = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>Home</a>
+                <a className="text-lg">Home</a>
               </li>
               <li>
-                <a>About</a>
+                <a className="text-lg">About</a>
               </li>
               <li>
-                <a>Projects</a>
+                <a className="text-lg">Projects</a>
               </li>
               <li>
-                <a>Skills</a>
+                <a className="text-lg">Skills</a>
               </li>
               <li>
-                <a>Resume</a>
+                <a className="text-lg">Resume</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a className="text-lg">Contact</a>
               </li>
             </ul>
           </div>

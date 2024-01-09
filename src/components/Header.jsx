@@ -1,12 +1,12 @@
 import { FaGithub } from "react-icons/fa";
-import ThemeToggler from './themeToggler';
+import ThemeToggler from './ThemeToggler';
 
 const Header = () => {
     return (
       <div>
         <div className="navbar bg-base-100">
           <div className="navbar-start">
-            {/* <ThemeToggler></ThemeToggler> */}
+             <ThemeToggler></ThemeToggler>
             <div className="dropdown">
               <div
                 tabIndex={0}

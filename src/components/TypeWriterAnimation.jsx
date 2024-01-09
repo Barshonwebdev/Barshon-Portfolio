@@ -1,8 +1,8 @@
 import { TypeAnimation } from "react-type-animation";
 
-const TypeWriterEffectText = () => {
-  return (
-    <TypeAnimation
+const TypeWriterAnimation = () => {
+    return (
+        <TypeAnimation
       sequence={[
         "Front End  Developer",
         1000,
@@ -20,7 +20,7 @@ const TypeWriterEffectText = () => {
       repeat={Infinity}
       className="text-2xl"
     />
-  );
+    );
 };
 
-export default TypeWriterEffectText;
+export default TypeWriterAnimation;

@@ -4,6 +4,7 @@ const ThemeToggler = () => {
    const [theme, setTheme] = useState("dark");
     const handleTheme=()=>{
        setTheme(theme==='dark'? 'light' : 'dark');
+       
     }
 
     useEffect(()=>{

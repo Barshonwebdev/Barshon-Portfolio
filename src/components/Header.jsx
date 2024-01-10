@@ -6,7 +6,7 @@ const Header = () => {
       <div>
         <div className="navbar bg-base-100">
           <div className="navbar-start">
-             <ThemeToggler></ThemeToggler>
+            <ThemeToggler></ThemeToggler>
             <div className="dropdown">
               <div
                 tabIndex={0}
@@ -39,13 +39,13 @@ const Header = () => {
                   <a>About</a>
                 </li>
                 <li>
+                  <a>Resume</a>
+                </li>
+                <li>
                   <a>Projects</a>
                 </li>
                 <li>
                   <a>Skills</a>
-                </li>
-                <li>
-                  <a>Resume</a>
                 </li>
                 <li>
                   <a>Contact</a>
@@ -62,13 +62,13 @@ const Header = () => {
                 <a className="text-lg">About</a>
               </li>
               <li>
+                <a className="text-lg">Resume</a>
+              </li>
+              <li>
                 <a className="text-lg">Projects</a>
               </li>
               <li>
                 <a className="text-lg">Skills</a>
-              </li>
-              <li>
-                <a className="text-lg">Resume</a>
               </li>
               <li>
                 <a className="text-lg">Contact</a>

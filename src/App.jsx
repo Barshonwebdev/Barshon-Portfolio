@@ -41,7 +41,7 @@ const App = () => {
                   <a href="#about">About</a>
                 </li>
                 <li>
-                  <a>Resume</a>
+                  <a href="#resume">Resume</a>
                 </li>
                 <li>
                   <a>Projects</a>
@@ -66,7 +66,7 @@ const App = () => {
                 </a>
               </li>
               <li>
-                <a className="text-lg">Resume</a>
+                <a href="#resume" className="text-lg">Resume</a>
               </li>
               <li>
                 <a className="text-lg">Projects</a>
@@ -92,7 +92,7 @@ const App = () => {
         </div>
       </div>
       <Home id="home"></Home>
-      <About id="about"></About>
+      <About resumeID="resume" id="about"></About>
     </div>
   );
 };

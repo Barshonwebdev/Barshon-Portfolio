@@ -6,7 +6,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
 import { Flip, Slide } from 'react-awesome-reveal';
 import resumePDF from '../assets/Barshon Chowdhury- Frontend Web Developer Resume.pdf';
-const About = ({id}) => {
+const About = ({id, resumeID}) => {
     return (
       <div id={id} className="p-10 lg:p-20 bg-stone-900 flex  text-white">
         <div className="flex justify-between items-center lg:space-x-56  flex-col lg:flex-row">
@@ -38,7 +38,7 @@ const About = ({id}) => {
                     <IoMail className="inline"></IoMail> barshonweb@gmail.com
                   </p>
                 </div>
-                <div className="flex justify-center lg:justify-normal mt-5">
+                <div id={resumeID} className="flex justify-center lg:justify-normal mt-5">
                   <a href={resumePDF} download="Barshon Chowdhury Resume (Frontend Developer)" target='_blank' rel='noreferrer'>
                     <button className="btn ">
                       <FaDownload className="text-xl"></FaDownload>Download

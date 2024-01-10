@@ -11,9 +11,9 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
     return (
-      <div className="flex flex-col md:flex-row items-center">
+      <div className="flex flex-col md:flex-row items-center my-5">
         <Slide className="lg:w-1/2" direction="left">
-          <div className="flex flex-col justify-center items-center mx-10 mt-32 mb-10 ">
+          <div className="flex flex-col justify-center items-center mx-10 mt-24 mb-10 ">
             <FaComputer className="text-9xl"></FaComputer>
             <h2 className="lg:text-4xl text-2xl font-bold">
               Barshon Chowdhury

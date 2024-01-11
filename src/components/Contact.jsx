@@ -36,46 +36,50 @@ const Contact = ({id}) => {
           </h2>
 
           <div className=" bg-slate-900 bg-opacity-30  py-10 mx-5 px-5 lg:mx-52 my-5 rounded-lg flex flex-col md:flex-row justify-around items-center space-y-7">
-            <form ref={form} onSubmit={sendEmail} className="w-full flex flex-col items-center space-y-6">
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className="w-full flex flex-col items-center space-y-6"
+            >
               <div className="ml-10">
                 <MdOutlineMail className="text-7xl"></MdOutlineMail>
               </div>
 
-              <div className="flex space-x-3">
+              <div className="flex space-x-3 items-center">
                 <label>
                   Name <span className="text-red-600">*</span>
                 </label>
                 <input
                   placeholder="Your Name"
-                  name='from_name'
+                  name="from_name"
                   required
                   className="bg-white p-2 text-black rounded"
                   type="text"
                 />
               </div>
-              <div className="flex space-x-3">
+              <div className="flex space-x-3 items-center">
                 <label>
                   Email <span className="text-red-600">*</span>
                 </label>
                 <input
-                name='from_email'
+                  name="from_email"
                   placeholder="Your Email"
                   required
                   className="bg-white p-2 text-black rounded"
                   type="email"
                 />
               </div>
-              <div className="flex space-x-3">
+              <div className="flex space-x-3 items-center">
                 <label>Subject</label>
                 <input
                   className="bg-white p-2  text-black rounded"
                   type="text"
                   placeholder="Subject"
-                  name='subject'
+                  name="subject"
                 />
               </div>
-              <div className="flex space-x-1 ">
-                <label className='md:ml-12 ml-3'>
+              <div className="flex space-x-1  ">
+                <label className="md:ml-12 ml-3">
                   Message<span className="text-red-600">*</span>
                 </label>
                 <textarea
@@ -91,7 +95,7 @@ const Contact = ({id}) => {
 
               <div>
                 <button className="zoom hover:bg-green-800 btn btn-sm rounded-lg btn-neutral">
-                  <input type='submit' value={'Send'} />
+                  <input type="submit" value={"Send"} />
                 </button>
               </div>
             </form>

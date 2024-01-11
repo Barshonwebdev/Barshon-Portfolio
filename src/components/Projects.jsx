@@ -2,6 +2,7 @@ import { Slide } from 'react-awesome-reveal';
 import project1img from './../assets/project1snap.JPG'
 import project2img from './../assets/project2snap.JPG'
 import project3img from './../assets/project3snap.JPG'
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 const Projects = ({id}) => {
     return (
@@ -29,7 +30,10 @@ const Projects = ({id}) => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="btn zoom btn-info">Live Site</button>
+                    <button className="btn zoom btn-success">
+                      Webapp{" "}
+                      <FaArrowUpRightFromSquare></FaArrowUpRightFromSquare>{" "}
+                    </button>
                   </a>
                   <button className="btn zoom btn-neutral">Details</button>
                 </div>
@@ -51,7 +55,10 @@ const Projects = ({id}) => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="btn zoom btn-info">Live Site</button>
+                    <button className="btn zoom btn-success">
+                      Webapp{" "}
+                      <FaArrowUpRightFromSquare></FaArrowUpRightFromSquare>{" "}
+                    </button>
                   </a>
                   <button className="btn zoom btn-neutral">Details</button>
                 </div>
@@ -75,7 +82,10 @@ const Projects = ({id}) => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="btn zoom btn-info">Live Site</button>
+                    <button className="btn zoom btn-success">
+                      Webapp{" "}
+                      <FaArrowUpRightFromSquare></FaArrowUpRightFromSquare>{" "}
+                    </button>
                   </a>
                   <button className="btn zoom btn-neutral">Details</button>
                 </div>

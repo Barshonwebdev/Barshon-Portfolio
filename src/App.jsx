@@ -99,7 +99,7 @@ const App = () => {
       <Home id="home"></Home>
       <About resumeID="resume" id="about"></About>
       <Projects id='projects'></Projects>
-      <Skills id="skills"></Skills>
+      <Skills id="skills"></Skills> 
     </div>
   );
 };

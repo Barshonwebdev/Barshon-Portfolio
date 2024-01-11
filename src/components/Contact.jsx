@@ -20,34 +20,51 @@ const Contact = ({id}) => {
                 <label>
                   Name <span className="text-red-600">*</span>
                 </label>
-                <input required className="bg-white text-black rounded" type="text" />
+                <input
+                  placeholder="Your Name"
+                  required
+                  className="bg-white p-2 text-black rounded"
+                  type="text"
+                />
               </div>
               <div className="flex space-x-3">
                 <label>
                   Email <span className="text-red-600">*</span>
                 </label>
-                <input required className="bg-white  text-black rounded" type="email" />
+                <input
+                  placeholder="Your Email"
+                  required
+                  className="bg-white p-2 text-black rounded"
+                  type="email"
+                />
               </div>
               <div className="flex space-x-3">
                 <label>Subject</label>
-                <input className="bg-white  text-black rounded" type="text" />
+                <input
+                  className="bg-white p-2  text-black rounded"
+                  type="text"
+                  placeholder="Subject"
+                />
               </div>
               <div className="flex space-x-1 ">
                 <label>
                   Message<span className="text-red-600">*</span>
                 </label>
                 <textarea
-                  className="bg-white  text-black rounded"
+                  className="bg-white p-1  text-black rounded"
                   required
                   name=""
                   id=""
-                  cols="22"
+                  cols="26"
                   rows="5"
+                  placeholder="Enter your mail content"
                 ></textarea>
               </div>
 
               <div>
-                <button className='zoom hover:bg-green-800 btn btn-sm rounded-lg btn-neutral'>Send</button>
+                <button className="zoom hover:bg-green-800 btn btn-sm rounded-lg btn-neutral">
+                  Send
+                </button>
               </div>
             </form>
             <div className="space-y-2 w-full text-sm text-center ">

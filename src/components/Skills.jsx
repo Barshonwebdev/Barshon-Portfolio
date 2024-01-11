@@ -20,7 +20,7 @@ import { SiExpress } from "react-icons/si";
 
 const Skills = ({ id }) => {
   return (
-    <Fade direction="up">
+    <Fade direction="down">
       <div id={id} className="  mt-10">
         <h4 className="text-3xl font-semibold text-center">Skills</h4>
         <div className="my-10 mx-10 gap-5 grid md:grid-cols-5 lg:grid-cols-7 grid-cols-3 lg:mx-48">

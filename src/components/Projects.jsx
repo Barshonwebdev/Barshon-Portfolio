@@ -5,7 +5,7 @@ import project3img from './../assets/project3snap.JPG'
 
 const Projects = ({id}) => {
     return (
-      <Slide direction='right'>
+      <Slide direction="right">
         <div id={id} className="my-16">
           <h2 className="text-center text-3xl font-semibold">
             Personal Projects
@@ -16,7 +16,9 @@ const Projects = ({id}) => {
                 <img src={project1img} />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Summertime Levelup!</h2>
+                <h2 className="card-title text-2xl font-bold">
+                  Summertime Levelup!
+                </h2>
                 <p className="italic">
                   Martial Arts summer training camp responsive webapp with full
                   frontend and backend functionalities (MERN)
@@ -38,7 +40,7 @@ const Projects = ({id}) => {
                 <img src={project2img} />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Premium Dine</h2>
+                <h2 className="card-title text-2xl font-bold">Premium Dine</h2>
                 <p className="italic">
                   Full Stack (MERN) responsive restaurant webapp with attractive
                   user interface and functionalities{" "}
@@ -60,7 +62,9 @@ const Projects = ({id}) => {
                 <img src={project3img} />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Marvellous Toys</h2>
+                <h2 className="card-title text-2xl font-bold">
+                  Marvellous Toys
+                </h2>
                 <p className="italic">
                   A full stack (MERN) responsive toy marketplace webapp which is
                   targeted towards action figure enthusiasts and sellers

@@ -27,7 +27,7 @@ const Home = ({id}) => {
             </div>
             <div className="mt-8 flex flex-col lg:flex-row space-x-3 justify-center ">
               <button className="btn font-thin  hover:btn-neutral  bg-slate-800 text-white rounded-badge">
-                Get in touch{" "}
+                Get in touch
                 <FaLongArrowAltRight className="text-xl"></FaLongArrowAltRight>
               </button>
               

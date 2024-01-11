@@ -13,7 +13,9 @@
 }
 
 html{
-font-family: 'Vollkorn', serif;}
+font-family: 'Vollkorn', serif;
+scroll-behavior: smooth;
+}
 
 .anchor{
     

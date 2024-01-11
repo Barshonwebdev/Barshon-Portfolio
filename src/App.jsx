@@ -103,6 +103,7 @@ const App = () => {
       <Projects id='projects'></Projects>
       <Skills id="skills"></Skills> 
       <Contact id='contact'></Contact>
+      
       <Footer></Footer>
     </div>
   );

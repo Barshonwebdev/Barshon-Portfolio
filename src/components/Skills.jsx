@@ -23,7 +23,7 @@ const Skills = ({ id }) => {
     <Fade direction="up">
       <div id={id} className="  mt-10">
         <h4 className="text-3xl font-semibold text-center">Skills</h4>
-        <div className="my-10 mx-10 gap-5 grid lg:grid-cols-7 grid-cols-3 lg:mx-48">
+        <div className="my-10 mx-10 gap-5 grid md:grid-cols-5 lg:grid-cols-7 grid-cols-3 lg:mx-48">
           <EachSkill name={"HTML 5"}>
             <Html5Original size={30}></Html5Original>
           </EachSkill>

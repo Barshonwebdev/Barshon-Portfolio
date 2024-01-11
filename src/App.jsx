@@ -5,11 +5,12 @@ import ThemeToggler from "./components/ThemeToggler";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 const App = () => {
   return (
-    <div className="anchor overflow-x-hidden md:overflow-x-visible">
+    <div className="anchor overflow-x-hidden ">
       {/* header part  */}
-      <div className="sticky top-0  z-10">
+      <div className="">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <ThemeToggler></ThemeToggler>
@@ -54,7 +55,7 @@ const App = () => {
                   <a href="#skills">Skills</a>
                 </li>
                 <li>
-                  <a>Contact</a>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -79,7 +80,7 @@ const App = () => {
                 <a href="#skills" className="text-lg">Skills</a>
               </li>
               <li>
-                <a className="text-lg">Contact</a>
+                <a href="#contact" className="text-lg">Contact</a>
               </li>
             </ul>
           </div>
@@ -101,7 +102,7 @@ const App = () => {
       <About resumeID="resume" id="about"></About>
       <Projects id='projects'></Projects>
       <Skills id="skills"></Skills> 
-
+      <Contact id='contact'></Contact>
       <Footer></Footer>
     </div>
   );

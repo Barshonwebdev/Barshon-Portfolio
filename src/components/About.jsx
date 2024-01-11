@@ -40,7 +40,7 @@ const About = ({id, resumeID}) => {
                 </div>
                 <div id={resumeID} className="flex justify-center lg:justify-normal mt-5">
                   <a href={resumePDF} download="Barshon Chowdhury Resume (Frontend Developer)" target='_blank' rel='noreferrer'>
-                    <button className="btn zoom">
+                    <button className="btn ">
                       <FaDownload className="text-xl"></FaDownload>Download
                       Resume
                     </button>

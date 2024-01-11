@@ -14,8 +14,7 @@
 
 
 
-html{
-    scroll-behavior: smooth;
+.anchor{
+    
     overflow-anchor: none;
-    overflow-x: hidden;
 }

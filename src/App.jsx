@@ -4,11 +4,12 @@ import { FaGithub } from "react-icons/fa";
 import ThemeToggler from "./components/ThemeToggler";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 const App = () => {
   return (
-    <div>
+    <div className="anchor overflow-x-hidden md:overflow-x-visible">
       {/* header part  */}
-      <div className="sticky top-0 z-10">
+      <div className="sticky top-0  z-10">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <ThemeToggler></ThemeToggler>
@@ -100,6 +101,8 @@ const App = () => {
       <About resumeID="resume" id="about"></About>
       <Projects id='projects'></Projects>
       <Skills id="skills"></Skills> 
+
+      <Footer></Footer>
     </div>
   );
 };

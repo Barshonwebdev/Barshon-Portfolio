@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import  { useRef } from 'react';
 import { FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 import { MdOutlineMail } from "react-icons/md";
 import emailjs from "@emailjs/browser";
@@ -37,7 +37,7 @@ const Contact = ({id}) => {
 
           <div className=" bg-slate-900 bg-opacity-30  py-10 mx-5 px-5 lg:mx-52 my-5 rounded-lg flex flex-col md:flex-row justify-around items-center space-y-7">
             <form ref={form} onSubmit={sendEmail} className="w-full flex flex-col items-center space-y-6">
-              <div className="">
+              <div className="ml-10">
                 <MdOutlineMail className="text-7xl"></MdOutlineMail>
               </div>
 
@@ -75,7 +75,7 @@ const Contact = ({id}) => {
                 />
               </div>
               <div className="flex space-x-1 ">
-                <label>
+                <label className='md:ml-12 ml-3'>
                   Message<span className="text-red-600">*</span>
                 </label>
                 <textarea
@@ -84,7 +84,7 @@ const Contact = ({id}) => {
                   name="message"
                   id=""
                   cols="26"
-                  rows="5"
+                  rows="7"
                   placeholder="Enter your mail content"
                 ></textarea>
               </div>

@@ -2,9 +2,11 @@ import About from "./components/About";
 import Home from "./components/Home";
 import { FaGithub } from "react-icons/fa";
 import ThemeToggler from "./components/ThemeToggler";
+import Skills from "./components/Skills";
 const App = () => {
   return (
     <div>
+      {/* header part  */}
       <div className="sticky top-0 z-10">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
@@ -47,7 +49,7 @@ const App = () => {
                   <a>Projects</a>
                 </li>
                 <li>
-                  <a>Skills</a>
+                  <a href="#skills">Skills</a>
                 </li>
                 <li>
                   <a>Contact</a>
@@ -72,7 +74,7 @@ const App = () => {
                 <a className="text-lg">Projects</a>
               </li>
               <li>
-                <a className="text-lg">Skills</a>
+                <a href="#skills" className="text-lg">Skills</a>
               </li>
               <li>
                 <a className="text-lg">Contact</a>
@@ -91,8 +93,11 @@ const App = () => {
           </div>
         </div>
       </div>
+
+      {/* components  */}
       <Home id="home"></Home>
       <About resumeID="resume" id="about"></About>
+      <Skills id="skills"></Skills>
     </div>
   );
 };

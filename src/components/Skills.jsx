@@ -13,14 +13,14 @@ import {
   Html5Original,
   BootstrapPlain,
 } from "devicons-react";
-import {  Slide } from "react-awesome-reveal";
+import  {  Fade } from "react-awesome-reveal";
 import { FaGithub } from "react-icons/fa6";
 import { SiExpress } from "react-icons/si";
 
 
 const Skills = ({ id }) => {
   return (
-    <Slide direction="down">
+    <Fade direction="up">
       <div id={id} className="  mt-10">
         <h4 className="text-3xl font-semibold text-center">Skills</h4>
         <div className="my-10 mx-10 gap-5 grid lg:grid-cols-7 grid-cols-3 lg:mx-48">
@@ -68,7 +68,7 @@ const Skills = ({ id }) => {
           </EachSkill>
         </div>
       </div>
-    </Slide>
+    </Fade>
   );
 };
 

@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import { FaGithub } from "react-icons/fa";
 import ThemeToggler from "./components/ThemeToggler";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 const App = () => {
   return (
     <div>
@@ -46,7 +47,7 @@ const App = () => {
                   <a href="#resume">Resume</a>
                 </li>
                 <li>
-                  <a>Projects</a>
+                  <a href="#projects">Projects</a>
                 </li>
                 <li>
                   <a href="#skills">Skills</a>
@@ -71,7 +72,7 @@ const App = () => {
                 <a href="#resume" className="text-lg">Resume</a>
               </li>
               <li>
-                <a className="text-lg">Projects</a>
+                <a href="#projects" className="text-lg">Projects</a>
               </li>
               <li>
                 <a href="#skills" className="text-lg">Skills</a>
@@ -97,6 +98,7 @@ const App = () => {
       {/* components  */}
       <Home id="home"></Home>
       <About resumeID="resume" id="about"></About>
+      <Projects id='projects'></Projects>
       <Skills id="skills"></Skills>
     </div>
   );

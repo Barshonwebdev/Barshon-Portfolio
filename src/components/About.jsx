@@ -10,7 +10,7 @@ const About = ({id, resumeID}) => {
     return (
       <div id={id} className="p-10 lg:p-20 bg-stone-900 flex  text-white">
         <div className="flex justify-between items-center lg:space-x-56  flex-col lg:flex-row">
-          <Slide direction="left">
+          <Slide  direction="left">
             <div className="w-full">
               <div className="">
                 <h3 className="uppercase text-xl">About me</h3>
@@ -49,7 +49,7 @@ const About = ({id, resumeID}) => {
               </div>
             </div>
           </Slide>
-          <Flip direction='vertical'>
+          <Flip  direction='vertical'>
             <div className="lg:w-full my-10 ">
               <div className="w-64 h-64 rounded-full border-2 bg-gray-900  ">
                 <img className=" mx-auto my-6 " src={aboutimg} alt="" />

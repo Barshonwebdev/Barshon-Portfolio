@@ -72,7 +72,7 @@ const Home = ({id}) => {
             </div>
           </div>
         </Slide>
-        <Slide direction="right">
+        <Slide  direction="right">
           <div className="ml-10 lg:ml-20">
             <img src={propic} alt="" />
           </div>

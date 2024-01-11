@@ -10,7 +10,7 @@ const Contact = ({id}) => {
             Contact Me
           </h2>
 
-          <div className=" bg-slate-900 bg-opacity-30  py-10 mx-5 px-5 lg:mx-96 my-5 rounded-lg flex flex-col md:flex-row justify-around items-center space-y-7">
+          <div className=" bg-slate-900 bg-opacity-30  py-10 mx-5 px-5 lg:mx-52 my-5 rounded-lg flex flex-col md:flex-row justify-around items-center space-y-7">
             <form className="w-full flex flex-col items-center space-y-6">
               <div className="">
                 <MdOutlineMail className="text-7xl"></MdOutlineMail>
@@ -20,13 +20,13 @@ const Contact = ({id}) => {
                 <label>
                   Name <span className="text-red-600">*</span>
                 </label>
-                <input className="bg-white text-black rounded" type="text" />
+                <input required className="bg-white text-black rounded" type="text" />
               </div>
               <div className="flex space-x-3">
                 <label>
                   Email <span className="text-red-600">*</span>
                 </label>
-                <input className="bg-white  text-black rounded" type="email" />
+                <input required className="bg-white  text-black rounded" type="email" />
               </div>
               <div className="flex space-x-3">
                 <label>Subject</label>
@@ -38,6 +38,7 @@ const Contact = ({id}) => {
                 </label>
                 <textarea
                   className="bg-white  text-black rounded"
+                  required
                   name=""
                   id=""
                   cols="22"
@@ -46,7 +47,7 @@ const Contact = ({id}) => {
               </div>
 
               <div>
-                <button className='zoom btn btn-sm rounded-lg btn-neutral'>Send</button>
+                <button className='zoom hover:bg-green-800 btn btn-sm rounded-lg btn-neutral'>Send</button>
               </div>
             </form>
             <div className="space-y-2 w-full text-sm text-center ">

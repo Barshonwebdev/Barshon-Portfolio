@@ -12,12 +12,12 @@ const Projects = ({id}) => {
             Personal Projects
           </h2>
           <div className="my-10 mx-8 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <div className="card-zoom rounded-xl card card-compact w-full bg-base-100 shadow-xl">
+            <div className=" card-zoom rounded-lg card border-2 border-opacity-10 border-gray-500 card-compact w-full bg-base-100 shadow-2xl">
               <figure>
                 <img src={project1img} />
               </figure>
               <div className="card-body">
-                <h2 className="card-title text-2xl font-bold">
+                <h2 className="card-title text-xl font-bold">
                   Summertime Levelup!
                 </h2>
                 <p className="italic">
@@ -39,12 +39,12 @@ const Projects = ({id}) => {
                 </div>
               </div>
             </div>
-            <div className="card-zoom rounded-xl card card-compact w-full bg-base-100 shadow-xl">
+            <div className=" card-zoom rounded-lg border-opacity-10 card card-compact border-2 border-gray-500 w-full bg-base-100 shadow-2xl">
               <figure>
                 <img src={project2img} />
               </figure>
               <div className="card-body">
-                <h2 className="card-title text-2xl font-bold">Premium Dine</h2>
+                <h2 className="card-title text-xl font-bold">Premium Dine</h2>
                 <p className="italic">
                   Full Stack (MERN) responsive restaurant webapp with attractive
                   user interface and functionalities{" "}
@@ -64,12 +64,12 @@ const Projects = ({id}) => {
                 </div>
               </div>
             </div>
-            <div className="card-zoom rounded-xl card card-compact w-full bg-base-100 shadow-xl">
+            <div className=" card-zoom rounded-lg border-opacity-10 card border-2 border-gray-500 card-compact w-full bg-base-100 shadow-xl">
               <figure>
                 <img src={project3img} />
               </figure>
               <div className="card-body">
-                <h2 className="card-title text-2xl font-bold">
+                <h2 className="card-title text-xl font-bold">
                   Marvellous Toys
                 </h2>
                 <p className="italic">

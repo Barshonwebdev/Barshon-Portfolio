@@ -87,7 +87,7 @@ const Contact = ({id}) => {
                   required
                   name="message"
                   id=""
-                  cols="26"
+                  cols="23"
                   rows="7"
                   placeholder="Enter your mail content"
                 ></textarea>

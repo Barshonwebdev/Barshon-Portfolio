@@ -206,7 +206,7 @@ const Projects = ({id}) => {
                             <h4 className="text-lg text-center">
                               Core Features
                             </h4>
-                            <p className=''>
+                            <p className='mt-3'>
                               • Complete full stack website frontend and backend
                               functionalities <br />• Private Routing
                               implemented <br />• Three roles for account users

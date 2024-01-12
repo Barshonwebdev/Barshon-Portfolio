@@ -1,10 +1,23 @@
 import { Slide } from 'react-awesome-reveal';
+
+// project images 
 import project1img from './../assets/project1snap.JPG'
 import project2img from './../assets/project2snap.JPG'
 import project3img from './../assets/project3snap.JPG'
+
+// icons 
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { FaLink } from "react-icons/fa";
+import {
+  FirebasePlain,
+  MongodbOriginal,
+  TailwindcssPlain,
+  ReactOriginal,
+  NodejsOriginal,
+  ExpressOriginal,
+} from "devicons-react";
 
+// carousal images 
 import p1s1img from '../assets/summertime levelup snaps/summertime-levelup.web.app_home.png'
 import p1s2img from '../assets/summertime levelup snaps/summertime-levelup.web.app_(PC).png'
 import p1s3img from '../assets/summertime levelup snaps/summertime-levelup.web.app_(PC) (1).png'
@@ -12,6 +25,8 @@ import p1s4img from '../assets/summertime levelup snaps/summertime-levelup.web.a
 import p1s5img from '../assets/summertime levelup snaps/summertime-levelup.web.app_(PC) (3).png'
 import p1s6img from '../assets/summertime levelup snaps/summertime-levelup.web.app_(PC) (4).png'
 import p1s7img from '../assets/summertime levelup snaps/summertime-levelup.web.app_(PC) (5).png'
+
+
 const Projects = ({id}) => {
     return (
       <Slide direction="right">
@@ -206,7 +221,7 @@ const Projects = ({id}) => {
                             <h4 className="text-lg text-center">
                               Core Features
                             </h4>
-                            <p className='mt-3'>
+                            <p className="mt-3">
                               • Complete full stack website frontend and backend
                               functionalities <br />• Private Routing
                               implemented <br />• Three roles for account users
@@ -219,11 +234,31 @@ const Projects = ({id}) => {
                               functionality for instructors
                             </p>
                           </div>
-                          <div className="w-full">
-                            <h4 className="text-lg text-center">Techs Used</h4>
+                          <div className="w-full ">
+                            <h4 className="text-lg text-center ">Techs Used</h4>
+                            <div className="mt-3 grid grid-cols-4 gap-5 md:ml-10">
+                              <div className="bg-gray-400 bg-opacity-20 p-3 rounded-lg ">
+                                <ReactOriginal size={35}></ReactOriginal>
+                              </div>
+                              <div className="bg-gray-400 bg-opacity-20 p-3  rounded-lg ">
+                                <ExpressOriginal size={35}></ExpressOriginal>
+                              </div>
+                              <div className="bg-gray-400 bg-opacity-20 p-3 rounded-lg ">
+                                <NodejsOriginal size={35}></NodejsOriginal>
+                              </div>
+                              <div className="bg-gray-400 bg-opacity-20 p-3  rounded-lg ">
+                                <MongodbOriginal size={35}></MongodbOriginal>
+                              </div>
+                              <div className="bg-gray-400 bg-opacity-20 p-3 rounded-lg ">
+                                <FirebasePlain size={35}></FirebasePlain>
+                              </div>
+                              <div className="bg-gray-400 bg-opacity-20 p-3  rounded-lg ">
+                                <TailwindcssPlain size={35}></TailwindcssPlain>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                        <div className=" my-4 flex justify-center">
+                        <div className=" my-9 flex justify-center">
                           <a
                             href="https://summertime-levelup.web.app/"
                             target="_blank"

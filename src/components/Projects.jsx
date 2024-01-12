@@ -3,7 +3,13 @@ import project1img from './../assets/project1snap.JPG'
 import project2img from './../assets/project2snap.JPG'
 import project3img from './../assets/project3snap.JPG'
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-
+import p1s1img from '../assets/summertime levelup snaps/summertime-levelup.web.app_home.png'
+import p1s2img from '../assets/summertime levelup snaps/summertime-levelup.web.app_(PC).png'
+import p1s3img from '../assets/summertime levelup snaps/summertime-levelup.web.app_(PC) (1).png'
+import p1s4img from '../assets/summertime levelup snaps/summertime-levelup.web.app_(PC) (2).png'
+import p1s5img from '../assets/summertime levelup snaps/summertime-levelup.web.app_(PC) (3).png'
+import p1s6img from '../assets/summertime levelup snaps/summertime-levelup.web.app_(PC) (4).png'
+import p1s7img from '../assets/summertime levelup snaps/summertime-levelup.web.app_(PC) (5).png'
 const Projects = ({id}) => {
     return (
       <Slide direction="right">
@@ -12,6 +18,7 @@ const Projects = ({id}) => {
             Personal Projects
           </h2>
           <div className="my-10 mx-8 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            {/* project 1  */}
             <div className=" card-zoom rounded-lg card border-2 border-opacity-10 border-gray-500 card-compact w-full bg-base-100 shadow-2xl">
               <figure>
                 <img src={project1img} />
@@ -35,10 +42,156 @@ const Projects = ({id}) => {
                       <FaArrowUpRightFromSquare></FaArrowUpRightFromSquare>{" "}
                     </button>
                   </a>
-                  <button className="btn zoom btn-neutral">Details</button>
+                  <button
+                    onClick={() =>
+                      document.getElementById("project1_modal").showModal()
+                    }
+                    className="btn zoom btn-neutral"
+                  >
+                    Details
+                  </button>
+                  {/* modal start */}
+                  <dialog id="project1_modal" className="modal">
+                    <div className="modal-box h-screen  max-w-5xl  ">
+                      <h3 className="text-center text-3xl -mt-4 mb-2">
+                        Summertime Levelup
+                      </h3>
+                      <div className='max-w-2xl mx-auto'>
+                        <div className="carousel h-96 w-full rounded">
+                          <div
+                            id="slide1"
+                            className="carousel-item relative w-full"
+                          >
+                            <img
+                              src={p1s1img}
+                              className="w-full"
+                            />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide7" className="btn btn-circle">
+                                ❮
+                              </a>
+                              <a href="#slide2" className="btn btn-circle">
+                                ❯
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            id="slide2"
+                            className="carousel-item relative w-full"
+                          >
+                            <img
+                              src={p1s2img}
+                              className="w-full"
+                            />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide1" className="btn btn-circle">
+                                ❮
+                              </a>
+                              <a href="#slide3" className="btn btn-circle">
+                                ❯
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            id="slide3"
+                            className="carousel-item relative w-full"
+                          >
+                            <img
+                              src={p1s3img}
+                              className="w-full"
+                            />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide2" className="btn btn-circle">
+                                ❮
+                              </a>
+                              <a href="#slide4" className="btn btn-circle">
+                                ❯
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            id="slide4"
+                            className="carousel-item relative w-full"
+                          >
+                            <img
+                              src={p1s4img}
+                              className="w-full"
+                            />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide3" className="btn btn-circle">
+                                ❮
+                              </a>
+                              <a href="#slide5" className="btn btn-circle">
+                                ❯
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            id="slide5"
+                            className="carousel-item relative w-full"
+                          >
+                            <img
+                              src={p1s5img}
+                              className="w-full"
+                            />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide4" className="btn btn-circle">
+                                ❮
+                              </a>
+                              <a href="#slide6" className="btn btn-circle">
+                                ❯
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            id="slide6"
+                            className="carousel-item relative w-full"
+                          >
+                            <img
+                              src={p1s6img}
+                              className="w-full"
+                            />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide5" className="btn btn-circle">
+                                ❮
+                              </a>
+                              <a href="#slide7" className="btn btn-circle">
+                                ❯
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            id="slide7"
+                            className="carousel-item relative w-full"
+                          >
+                            <img
+                              src={p1s7img}
+                              className="w-full"
+                            />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide6" className="btn btn-circle">
+                                ❮
+                              </a>
+                              <a href="#slide1" className="btn btn-circle">
+                                ❯
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="modal-action bottom-2 absolute right-2">
+                        <form method="dialog">
+                          <button className="btn">Close</button>
+                        </form>
+                      </div>
+                    </div>
+                  </dialog>
+                  {/* modal end  */}
                 </div>
               </div>
             </div>
+
+            {/* project 2  */}
             <div className=" card-zoom rounded-lg border-opacity-10 card card-compact border-2 border-gray-500 w-full bg-base-100 shadow-2xl">
               <figure>
                 <img src={project2img} />
@@ -64,6 +217,8 @@ const Projects = ({id}) => {
                 </div>
               </div>
             </div>
+
+            {/* project 3  */}
             <div className=" card-zoom rounded-lg border-opacity-10 card border-2 border-gray-500 card-compact w-full bg-base-100 shadow-xl">
               <figure>
                 <img src={project3img} />

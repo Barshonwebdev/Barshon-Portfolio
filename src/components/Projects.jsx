@@ -57,7 +57,7 @@ const Projects = ({id}) => {
                         Summertime Levelup
                       </h3>
                       <div className='max-w-2xl mx-auto'>
-                        <div className="carousel h-96 w-full rounded">
+                        <div className="carousel  w-full rounded">
                           <div
                             id="slide1"
                             className="carousel-item relative w-full"

@@ -5,7 +5,7 @@ import { IoMail } from "react-icons/io5";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
 import { Flip, Slide } from 'react-awesome-reveal';
-import resumePDF from '../assets/Barshon Chowdhury- Frontend Web Developer Resume.pdf';
+import resumePDF from '../assets/Resume/Barshon Chowdhury- Frontend Web Developer  Resume.pdf';
 const About = ({id, resumeID}) => {
     return (
       <div id={id} className="p-10 lg:p-20 bg-stone-900 flex  text-white">

@@ -6,6 +6,8 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import resumePDF from "./assets/Resume/Barshon Chowdhury- Frontend Web Developer  Resume.pdf";
+
 const App = () => {
   return (
     <div className="anchor overflow-x-hidden ">
@@ -46,7 +48,14 @@ const App = () => {
                   <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#resume">Resume</a>
+                  <a
+                    href={resumePDF}
+                    download="Barshon Chowdhury Resume (Frontend Developer)"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Download Resume
+                  </a>
                 </li>
                 <li>
                   <a href="#projects">Projects</a>
@@ -63,7 +72,9 @@ const App = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a href="#home" className="text-lg">Home</a>
+                <a href="#home" className="text-lg">
+                  Home
+                </a>
               </li>
               <li>
                 <a href="#about" className="text-lg">
@@ -71,16 +82,30 @@ const App = () => {
                 </a>
               </li>
               <li>
-                <a href="#resume" className="text-lg">Resume</a>
+                <a
+                  href={resumePDF}
+                  download="Barshon Chowdhury Resume (Frontend Developer)"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-lg"
+                >
+                  Download Resume
+                </a>
               </li>
               <li>
-                <a href="#projects" className="text-lg">Projects</a>
+                <a href="#projects" className="text-lg">
+                  Projects
+                </a>
               </li>
               <li>
-                <a href="#skills" className="text-lg">Skills</a>
+                <a href="#skills" className="text-lg">
+                  Skills
+                </a>
               </li>
               <li>
-                <a href="#contact" className="text-lg">Contact</a>
+                <a href="#contact" className="text-lg">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
@@ -100,10 +125,10 @@ const App = () => {
       {/* components  */}
       <Home id="home"></Home>
       <About resumeID="resume" id="about"></About>
-      <Projects id='projects'></Projects>
-      <Skills id="skills"></Skills> 
-      <Contact id='contact'></Contact>
-      
+      <Projects id="projects"></Projects>
+      <Skills id="skills"></Skills>
+      <Contact id="contact"></Contact>
+
       <Footer></Footer>
     </div>
   );

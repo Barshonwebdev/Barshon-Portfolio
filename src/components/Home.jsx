@@ -23,7 +23,7 @@ const Home = ({id}) => {
             </h3>
             <div className="mt-5 lg:px-14 ">
               Passionate web developer with a knack for turning ideas into
-              interactive and visually appealing websites. Proficient in mostly ReactJs with additional knowledge about NodeJS,ExpressJS and MongoDB. 
+              interactive and visually appealing websites. Proficient in mostly ReactJS with additional knowledge about NodeJS, ExpressJS and MongoDB. 
             </div>
             <div className="mt-8 flex flex-col lg:flex-row space-x-3 justify-center ">
               <button className="btn font-thin  hover:btn-neutral  bg-slate-800 text-white rounded-badge">

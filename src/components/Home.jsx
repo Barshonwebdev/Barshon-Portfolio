@@ -31,7 +31,7 @@ const Home = ({id}) => {
                 <FaLongArrowAltRight className="text-xl"></FaLongArrowAltRight>
               </button>
               
-              <div className="space-x-2 mt-5 lg:mt-0">
+              <div className="space-x-2 mt-5 lg:mt-0"> 
                 <button className="zoom btn btn-circle hover:btn-neutral bg-blue-600">
                   <a
                     target="_blank"
